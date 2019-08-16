@@ -5,13 +5,27 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "195.110.35.147",
+        "host": "149.91.81.203",
         "port": 27017,
-        "database": "jeuneci",
+        "database": "jeunesci",
         "username": "",
-        "password": ""
+        "password": "",
+        "enabled": true,
+        "defaultConnection": "default",
+        "authenticationDatabase": "",
+        "ssl": false,
+        "debug": false
       },
-      "options": {}
+      "options": {
+        "enabled": true,
+        "defaultConnection": "default",
+        "host": "localhost",
+        "port": 27017,
+        "database": "strapi",
+        "authenticationDatabase": "",
+        "ssl": false,
+        "debug": false
+      }
     }
   }
 }
