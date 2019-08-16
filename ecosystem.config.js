@@ -1,10 +1,10 @@
 module.exports = {
   apps: [
     {
-      name: 'strapi-getstarted',
+      name: 'jeunes',
       script: 'npm',
       args: 'start',
-      instances : 'max',
+      
       env: {
         NODE_ENV: 'production',
       },
