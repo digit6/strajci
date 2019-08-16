@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "application",
+  "info": {
+    "name": "application",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "version": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    },
+    "pass": {
+      "type": "string"
+    },
+    "url_file": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "connection": "default",
+  "collectionName": "contenu",
+  "info": {
+    "name": "contenu",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "categorie": {
+      "enum": [
+        "actualites",
+        "emplois",
+        "entrepreneuriat",
+        "sport",
+        "culture",
+        "engagement_social",
+        "jtv",
+        "bourses",
+        "formations",
+        "concours",
+        "international"
+      ],
+      "type": "enumeration"
+    },
+    "titre": {
+      "type": "string"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "partage": {
+      "type": "string"
+    },
+    "infos": {
+      "collection": "info",
+      "via": "contenu"
+    }
+  }
+}

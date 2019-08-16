@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "jeune",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "email": {
+      "unique": true,
+      "required": true,
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "auth": {
+      "type": "string"
+    }
+  }
+}

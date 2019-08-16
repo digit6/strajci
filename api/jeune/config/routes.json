@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jeunes",
+      "handler": "Jeune.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jeunes/count",
+      "handler": "Jeune.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jeunes/:_id",
+      "handler": "Jeune.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jeunes",
+      "handler": "Jeune.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jeunes/:_id",
+      "handler": "Jeune.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jeunes/:_id",
+      "handler": "Jeune.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
